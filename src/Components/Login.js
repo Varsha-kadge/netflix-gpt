@@ -1,9 +1,97 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import Header from './Header';
+import { checkValidData } from '../Utils/validate';
+import { auth } from '../Utils/firebase';
+import {
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  updateProfile,
+} from 'firebase/auth';
+import { useNavigate } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { addUser } from '../Utils/userSlice';
+
 const Login = () => {
   const [isSignIn, setIsSignIn] = useState(true);
+  const [errorMessage, setErrorMessage] = useState('');
+  const email = useRef(null);
+  const password = useRef(null);
+  const name = useRef(null);
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
   const toggleSignInForm = () => {
     setIsSignIn(!isSignIn);
+  };
+  const handleButtonClick = () => {
+    // validate the form
+    let isValid = checkValidData(
+      email.current.value,
+      password.current.value,
+      !isSignIn ? name.current.value : ''
+    );
+    isValid !== null ? setErrorMessage(isValid) : setErrorMessage('');
+    if (isValid === null) {
+      //Sign-In Sign-UP
+      if (isSignIn) {
+        // Sign-In logic
+        signInWithEmailAndPassword(
+          auth,
+          email.current.value,
+          password.current.value
+        )
+          .then((userCredential) => {
+            // Signed in
+            var user = userCredential.user;
+            navigate('/browse');
+            console.log(user);
+            // ...
+          })
+          .catch((error) => {
+            var errorMessage = error.message;
+            setErrorMessage(errorMessage);
+          });
+      } else {
+        // sign-Up logic
+        createUserWithEmailAndPassword(
+          auth,
+          email.current.value,
+          password.current.value
+        )
+          .then((userCredential) => {
+            // Signed up
+            const user = userCredential.user;
+            updateProfile(auth.currentUser, {
+              displayName: name.current.value,
+              photoURL:
+                'https://i.pinimg.com/736x/3c/07/d4/3c07d4d147861c7233aec7c824e34cb5.jpg',
+            })
+              .then(() => {
+                const { uid, email, displayName, photoURL } = auth.currentUser;
+                dispatch(
+                  addUser({
+                    uid: uid,
+                    email: email,
+                    displayName: displayName,
+                    photoURL: photoURL,
+                  })
+                );
+                navigate('/browse');
+                // Update successful
+                // ...
+              })
+              .catch((error) => {
+                setErrorMessage(error.message);
+                // An error occurred
+                // ...
+              }); // ...
+          })
+          .catch((error) => {
+            const errorMessage = error.message;
+            setErrorMessage(errorMessage);
+            // ..
+          });
+      }
+    }
   };
   return (
     <div>
@@ -12,30 +100,39 @@ const Login = () => {
         <img
           className='absolute'
           src='https://assets.nflxext.com/ffe/siteui/vlv3/7968847f-3da9-44b3-8bbb-13a46579881f/web/IN-en-20250609-TRIFECTA-perspective_32b70b51-20d4-46db-8a1a-3d5428be5f0e_large.jpg'
+          alt=''
         />
       </div>
-      <form className='w-4/12 text-white p-12 absolute bg-black my-36 mx-auto right-0 left-0 bg-opacity-85 rounded-lg'>
+      <form
+        onSubmit={(e) => e.preventDefault()}
+        className='w-4/12 text-white p-12 absolute bg-black my-24 mx-auto right-0 left-0 bg-opacity-85 rounded-lg'>
         <h1 className='font-bold text-3xl py-4'>
           {isSignIn ? 'Sign In' : 'Sign Up'}
         </h1>
         {!isSignIn && (
           <input
+            ref={name}
             type='text'
             placeholder='Full Name'
-            className='p-4 my-4 w-full bg-gray-900 border rounded-sm border-e-white'
+            className='p-4 my-4 w-full bg-gray-900 border rounded-sm border-white'
           />
         )}
         <input
+          ref={email}
           type='email'
           placeholder='Email Address'
-          className='p-4 my-4 w-full bg-gray-900 border rounded-sm border-e-white'
+          className='p-4 my-4 w-full bg-gray-900 border rounded-sm border-white'
         />
         <input
+          ref={password}
           type='password'
           placeholder='Password'
           className='p-4 my-4 w-full bg-gray-900 border rounded-sm border-white'
         />
-        <button className='p-4 font-bold my-6 bg-red-80 bg-red-700 w-full rounded-lg'>
+        <p className='text-red-700 font-bold text-lg'>{errorMessage}</p>
+        <button
+          onClick={handleButtonClick}
+          className='p-4 font-bold my-6 bg-red-80 bg-red-700 w-full rounded-lg'>
           {isSignIn ? 'Sign In' : 'Sign Up'}
         </button>
         <p className='py-4 cursor-pointer' onClick={toggleSignInForm}>
