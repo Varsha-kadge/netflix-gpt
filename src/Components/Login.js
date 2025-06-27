@@ -7,9 +7,9 @@ import {
   signInWithEmailAndPassword,
   updateProfile,
 } from 'firebase/auth';
-import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { addUser } from '../Utils/userSlice';
+import { USER_AVTAR } from '../Utils/Constant';
 
 const Login = () => {
   const [isSignIn, setIsSignIn] = useState(true);
@@ -17,7 +17,6 @@ const Login = () => {
   const email = useRef(null);
   const password = useRef(null);
   const name = useRef(null);
-  const navigate = useNavigate();
   const dispatch = useDispatch();
   const toggleSignInForm = () => {
     setIsSignIn(!isSignIn);
@@ -42,8 +41,6 @@ const Login = () => {
           .then((userCredential) => {
             // Signed in
             var user = userCredential.user;
-            navigate('/browse');
-            console.log(user);
             // ...
           })
           .catch((error) => {
@@ -59,11 +56,10 @@ const Login = () => {
         )
           .then((userCredential) => {
             // Signed up
-            const user = userCredential.user;
+            //const user = userCredential.user;
             updateProfile(auth.currentUser, {
               displayName: name.current.value,
-              photoURL:
-                'https://i.pinimg.com/736x/3c/07/d4/3c07d4d147861c7233aec7c824e34cb5.jpg',
+              photoURL: USER_AVTAR,
             })
               .then(() => {
                 const { uid, email, displayName, photoURL } = auth.currentUser;
@@ -75,7 +71,6 @@ const Login = () => {
                     photoURL: photoURL,
                   })
                 );
-                navigate('/browse');
                 // Update successful
                 // ...
               })
