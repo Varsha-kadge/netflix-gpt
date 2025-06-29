@@ -7,10 +7,15 @@ import { onAuthStateChanged } from 'firebase/auth';
 import { useDispatch } from 'react-redux';
 import { addUser, removeUser } from '../Utils/userSlice';
 import { LOGO } from '../Utils/Constant';
+import { toggleGPTSearchView } from '../Utils/GPTSlice';
+import { SUPPORTED_LANGUAGES } from '../Utils/Constant';
+import { addSelectedLanguage } from '../Utils/ConfigSlice';
 
 const Header = () => {
   const navigate = useNavigate();
   const user = useSelector((store) => store.user);
+  const showGptSearch = useSelector((store) => store.gpt.showGPTSeacrh);
+  //const defaultLang = useSelector((store) => store.config.language);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -51,11 +56,34 @@ const Header = () => {
         navigate('/error');
       });
   };
+  const handleGPTSearchClick = () => {
+    dispatch(toggleGPTSearchView());
+    // Toggle GPT Search button
+  };
+  const handleLanguageSelect = (e) => {
+    dispatch(addSelectedLanguage(e.target.value));
+  };
   return (
-    <div className='absolute px-8 py-2 w-screen  bg-gradient-to-b from-black z-10 flex justify-between'>
+    <div className='absolute w-screen px-8 py-2  bg-gradient-to-b from-black z-10 flex justify-between'>
       <img className='w-44 ' src={LOGO} alt='logo' />
       {user && (
-        <div className='flex p-2'>
+        <div className='flex'>
+          {showGptSearch && (
+            <select
+              onChange={handleLanguageSelect}
+              className='px-4 pr-2 mx-2 my-2 bg-gray-900 text-white rounded-lg'>
+              {SUPPORTED_LANGUAGES.map((option) => (
+                <option key={option.identifier} value={option.identifier}>
+                  {option.name}
+                </option>
+              ))}
+            </select>
+          )}
+          <button
+            onClick={handleGPTSearchClick}
+            className='px-4 mx-4 my-2 bg-purple-300 rounded-lg'>
+            {showGptSearch ? 'Home Page' : 'GPT Search'}
+          </button>
           <img
             src={user.photoURL}
             className='w-12 h-12 m-2 mt-3 rounded-3xl'

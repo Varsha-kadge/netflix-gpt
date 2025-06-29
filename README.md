@@ -26,9 +26,14 @@
 - updated the store with movies data- movieSlice
 - planning for main conatiner and secondary container
 - Fetch data for trailor video
-- update store with trailor video data
+- update store with trailer video data.
 - Embedded the youtube vedio and make it autoplay and mute added tailwind classes to make main container more owesome.
 - Build Secondary container.
+- used custom hooks for populer, top rated and upcoming movies
+- GPT search feature
+- GPT search bar
+- (FEATURE)Multi-language feature in app.
+- Integrate the GPT API's(Open AI Key);
 
 # Features
 
