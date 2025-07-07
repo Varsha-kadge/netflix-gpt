@@ -1,0 +1,411 @@
+{
+  "dates": {
+    "maximum": "2025-07-23",
+    "minimum": "2025-07-02"
+  },
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/6WqqEjiycNvDLjbEClM1zCwIbDD.jpg",
+      "genre_ids": [
+        27,
+        53,
+        878
+      ],
+      "id": 1100988,
+      "original_language": "en",
+      "original_title": "28 Years Later",
+      "overview": "Twenty-eight years since the rage virus escaped a biological weapons laboratory, now, still in a ruthlessly enforced quarantine, some have found ways to exist amidst the infected. One such group lives on a small island connected to the mainland by a single, heavily-defended causeway. When one member departs on a mission into the dark heart of the mainland, he discovers secrets, wonders, and horrors that have mutated not only the infected but other survivors as well.",
+      "popularity": 271.2644,
+      "poster_path": "/361hRZoG91Nw6qXaIKuGoogQjix.jpg",
+      "release_date": "2025-06-18",
+      "title": "28 Years Later",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 346
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/peAzdLKtT6VDWIfPQO9LJD1NCG4.jpg",
+      "genre_ids": [
+        878,
+        12,
+        28
+      ],
+      "id": 1234821,
+      "original_language": "en",
+      "original_title": "Jurassic World Rebirth",
+      "overview": "Five years after the events of Jurassic World Dominion, covert operations expert Zora Bennett is contracted to lead a skilled team on a top-secret mission to secure genetic material from the world's three most massive dinosaurs. When Zora's operation intersects with a civilian family whose boating expedition was capsized, they all find themselves stranded on an island where they come face-to-face with a sinister, shocking discovery that's been hidden from the world for decades.",
+      "popularity": 112.2759,
+      "poster_path": "/skSoZMossoIYvzOf2UnaWqLscJl.jpg",
+      "release_date": "2025-07-01",
+      "title": "Jurassic World Rebirth",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 15
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kyBOGOBUMdGWOhzECuosPSzoMpi.jpg",
+      "genre_ids": [
+        28,
+        27,
+        878
+      ],
+      "id": 1071585,
+      "original_language": "en",
+      "original_title": "M3GAN 2.0",
+      "overview": "After the underlying tech for M3GAN is stolen and misused by a powerful defense contractor to create a military-grade weapon known as Amelia, M3GAN's creator Gemma realizes that the only option is to resurrect M3GAN and give her a few upgrades, making her faster, stronger, and more lethal.",
+      "popularity": 83.6227,
+      "poster_path": "/rugqCpq8yBGWaQW6dMY2DVOEW7e.jpg",
+      "release_date": "2025-06-25",
+      "title": "M3GAN 2.0",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 43
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mBDoBHUZHHy9WG7dRFndjB8adhc.jpg",
+      "genre_ids": [
+        10751,
+        35,
+        12,
+        16,
+        878
+      ],
+      "id": 1022787,
+      "original_language": "en",
+      "original_title": "Elio",
+      "overview": "Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with eccentric alien lifeforms, navigate a crisis of intergalactic proportions and somehow discover who he is truly meant to be.",
+      "popularity": 75.6296,
+      "poster_path": "/w2ARwtc1zoh0pyfwmyhpZHwuXgK.jpg",
+      "release_date": "2025-06-18",
+      "title": "Elio",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 100
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/v67tbCB03CMcJRWit8CS7JdJp6.jpg",
+      "genre_ids": [
+        28,
+        18,
+        53
+      ],
+      "id": 757725,
+      "original_language": "en",
+      "original_title": "Shadow Force",
+      "overview": "Kyrah and Isaac were once the leaders of a multinational special forces group called Shadow Force. They broke the rules by falling in love, and in order to protect their son, they go underground. With a large bounty on their heads, and the vengeful Shadow Force hot on their trail, one family's fight becomes all-out war.",
+      "popularity": 67.7287,
+      "poster_path": "/7IEW24vBiZerZrDlgLVSUU3oT1C.jpg",
+      "release_date": "2025-05-01",
+      "title": "Shadow Force",
+      "video": false,
+      "vote_average": 6.326,
+      "vote_count": 89
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/eQV9rSQ6S1ja4lGTwHTnQuVhoG.jpg",
+      "genre_ids": [
+        27,
+        35,
+        14,
+        18
+      ],
+      "id": 1284120,
+      "original_language": "no",
+      "original_title": "Den stygge stesøsteren",
+      "overview": "In a fairy-tale kingdom where beauty is a brutal business, Elvira battles to compete with her incredibly beautiful stepsister, and she will go to any length to catch the prince’s eye.",
+      "popularity": 62.3686,
+      "poster_path": "/crX9rSg9EohybhkEe8iTQUCe55y.jpg",
+      "release_date": "2025-03-07",
+      "title": "The Ugly Stepsister",
+      "video": false,
+      "vote_average": 7.187,
+      "vote_count": 211
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zOpe0eHsq0A2NvNyBbtT6sj53qV.jpg",
+      "genre_ids": [
+        28,
+        878,
+        35,
+        10751
+      ],
+      "id": 939243,
+      "original_language": "en",
+      "original_title": "Sonic the Hedgehog 3",
+      "overview": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched in every way, Team Sonic must seek out an unlikely alliance in hopes of stopping Shadow and protecting the planet.",
+      "popularity": 62.2856,
+      "poster_path": "/d8Ryb8AunYAuycVKDp5HpdWPKgC.jpg",
+      "release_date": "2024-12-19",
+      "title": "Sonic the Hedgehog 3",
+      "video": false,
+      "vote_average": 7.708,
+      "vote_count": 2725
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lAnkMSDISzMYLWICS7m16rSTUHD.jpg",
+      "genre_ids": [
+        28,
+        12,
+        18
+      ],
+      "id": 1011477,
+      "original_language": "en",
+      "original_title": "Karate Kid: Legends",
+      "overview": "After a family tragedy, kung fu prodigy Li Fong is uprooted from his home in Beijing and forced to move to New York City with his mother. When a new friend needs his help, Li enters a karate competition – but his skills alone aren't enough. Li's kung fu teacher Mr. Han enlists original Karate Kid Daniel LaRusso for help, and Li learns a new way to fight, merging their two styles into one for the ultimate martial arts showdown.",
+      "popularity": 53.4821,
+      "poster_path": "/c90Lt7OQGsOmhv6x4JoFdoHzw5l.jpg",
+      "release_date": "2025-05-08",
+      "title": "Karate Kid: Legends",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 158
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/g62G6aBcAcJv3ClCKmJgmHarHvq.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "id": 1061474,
+      "original_language": "en",
+      "original_title": "Superman",
+      "overview": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
+      "popularity": 52.2146,
+      "poster_path": "/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg",
+      "release_date": "2025-07-09",
+      "title": "Superman",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ce51NvJSO5ReNkm3C3YDX5jsH1V.jpg",
+      "genre_ids": [
+        12,
+        10751,
+        99
+      ],
+      "id": 1094473,
+      "original_language": "fr",
+      "original_title": "Bambi, l'histoire d'une vie dans les bois",
+      "overview": "The life of Bambi, a male roe deer, from his birth through childhood, the loss of his mother, the finding of a mate, the lessons he learns from his father, and the experience he gains about the dangers posed by human hunters in the forest.",
+      "popularity": 38.292,
+      "poster_path": "/vWNVHtwOhcoOEUSrY1iHRGbgH8O.jpg",
+      "release_date": "2024-10-16",
+      "title": "Bambi: A Life in the Woods",
+      "video": false,
+      "vote_average": 5.8,
+      "vote_count": 30
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/unthV1mq9llhEinIMPcCUImFodt.jpg",
+      "genre_ids": [
+        878,
+        12
+      ],
+      "id": 617126,
+      "original_language": "en",
+      "original_title": "The Fantastic Four: First Steps",
+      "overview": "Against the vibrant backdrop of a 1960s-inspired, retro-futuristic world, Marvel's First Family is forced to balance their roles as heroes with the strength of their family bond, while defending Earth from a ravenous space god called Galactus and his enigmatic Herald, Silver Surfer.",
+      "popularity": 40.0387,
+      "poster_path": "/x26MtUlwtWD26d0G0FXcppxCJio.jpg",
+      "release_date": "2025-07-23",
+      "title": "The Fantastic Four: First Steps",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hKmRJ4pWBjhVOhgLAFzXddpc69p.jpg",
+      "genre_ids": [
+        12,
+        16,
+        18,
+        10751
+      ],
+      "id": 589018,
+      "original_language": "fr",
+      "original_title": "Sauvages",
+      "overview": "In Borneo, near the tropical forest, Kéria rescues a baby orangutang in the palm oil plantation where her father works. Kéria's cousin Selaï comes to live with them seeking refuge from the conflict between his indigenous tribe and the logging companies. Kéria, Selaï and the little orangutang, now named Oshi, will have to fight against their forest’s destruction.",
+      "popularity": 31.1365,
+      "poster_path": "/qC6yrKvmIEnkFVjpp0U7u02SiDQ.jpg",
+      "release_date": "2024-10-16",
+      "title": "Savages",
+      "video": false,
+      "vote_average": 6.938,
+      "vote_count": 24
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lqwwGkwJHtz9QgKtz4zeY19YgDg.jpg",
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "id": 1136867,
+      "original_language": "en",
+      "original_title": "Materialists",
+      "overview": "A young, ambitious New York City matchmaker finds herself torn between the perfect match and her imperfect ex.",
+      "popularity": 30.6316,
+      "poster_path": "/eDo0pNruy0Qgj6BdTyHIR4cxHY8.jpg",
+      "release_date": "2025-06-12",
+      "title": "Materialists",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 40
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/11vyKM09CHxWDjivjl4tldTllzG.jpg",
+      "genre_ids": [
+        27
+      ],
+      "id": 1278950,
+      "original_language": "en",
+      "original_title": "The Ritual",
+      "overview": "Al Pacino stars in the TRUE STORY of how two priests, one in crisis with his faith and the other confronting a turbulent past, must overcome their differences to perform a risky exorcism.",
+      "popularity": 21.1638,
+      "poster_path": "/uubL8yvtEBjz3V7DFQHjCuSQO8w.jpg",
+      "release_date": "2025-05-27",
+      "title": "The Ritual",
+      "video": false,
+      "vote_average": 5.569,
+      "vote_count": 29
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/P82NAcEsLIYgQtrtn36tYsj41m.jpg",
+      "genre_ids": [
+        10751,
+        35,
+        12,
+        16
+      ],
+      "id": 748783,
+      "original_language": "en",
+      "original_title": "The Garfield Movie",
+      "overview": "Garfield, the world-famous, Monday-hating, lasagna-loving indoor cat, is about to have a wild outdoor adventure! After an unexpected reunion with his long-lost father – scruffy street cat Vic – Garfield and his canine friend Odie are forced from their perfectly pampered life into joining Vic in a hilarious, high-stakes heist.",
+      "popularity": 19.7187,
+      "poster_path": "/xYduFGuch9OwbCOEUiamml18ZoB.jpg",
+      "release_date": "2024-04-30",
+      "title": "The Garfield Movie",
+      "video": false,
+      "vote_average": 7.062,
+      "vote_count": 1284
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jKMbP0rwEkJYxkNRFQXFkVIIzGP.jpg",
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "id": 1092506,
+      "original_language": "en",
+      "original_title": "On Swift Horses",
+      "overview": "In the 1950s, a seemingly sensible newlywed and her wayward brother-in-law undertake parallel journeys of risk, romance, and self-discovery.",
+      "popularity": 17.783,
+      "poster_path": "/qs2AeWbLklk9I5UbI8bllZVfF2V.jpg",
+      "release_date": "2025-04-24",
+      "title": "On Swift Horses",
+      "video": false,
+      "vote_average": 6.2,
+      "vote_count": 39
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zViRwl3ySscZnbXZJ2Q9wq3SeUG.jpg",
+      "genre_ids": [
+        16,
+        878,
+        12,
+        10751
+      ],
+      "id": 698687,
+      "original_language": "en",
+      "original_title": "Transformers One",
+      "overview": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
+      "popularity": 16.1971,
+      "poster_path": "/iRCgqpdVE4wyLQvGYU3ZP7pAtUc.jpg",
+      "release_date": "2024-09-11",
+      "title": "Transformers One",
+      "video": false,
+      "vote_average": 8.076,
+      "vote_count": 1287
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yIvQblXpyQ2qLfqQQpk1BY5MiTa.jpg",
+      "genre_ids": [
+        18,
+        80
+      ],
+      "id": 1139695,
+      "original_language": "zh",
+      "original_title": "酱园弄·悬案",
+      "overview": "Set in a bustling alleyway during the Japanese occupation of Shanghai in the 1940s, the film centres on a wife, Zhan Zhou, who was being charged with the bloody dismemberment of her husband – a killing that seems impossible for her to have committed alone. The murder thrusts Zhan into the spotlight and the court of public opinion, forcing her towards a fate intertwined with that of her own country.",
+      "popularity": 16.0684,
+      "poster_path": "/2C1yy7lPYAYvbtW8bDckGGdPhmt.jpg",
+      "release_date": "2025-06-14",
+      "title": "She's Got No Name",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/baAFsaYx5dZvb4g8NyE7iDh8p6q.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 1285965,
+      "original_language": "en",
+      "original_title": "Dangerous Animals",
+      "overview": "A savvy and free-spirited surfer is abducted by a shark-obsessed serial killer. Held captive on his boat, she must figure out how to escape before he carries out a ritualistic feeding to the sharks below.",
+      "popularity": 12.0428,
+      "poster_path": "/9tk3Si960hg4E49eMt81dS7Qe9Z.jpg",
+      "release_date": "2025-06-05",
+      "title": "Dangerous Animals",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 17
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4fsyGmrZrCq9ndkoMLXrLPyMSpf.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        14
+      ],
+      "id": 936108,
+      "original_language": "en",
+      "original_title": "Smurfs",
+      "overview": "When Papa Smurf is mysteriously taken by evil wizards, Razamel and Gargamel, Smurfette leads the Smurfs on a mission into the real world to save him. With the help of new friends, the Smurfs must discover what defines their destiny to save the universe.",
+      "popularity": 13.3186,
+      "poster_path": "/8o6lkhL32xQJeB52IIG1us5BVey.jpg",
+      "release_date": "2025-07-05",
+      "title": "Smurfs",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    }
+  ],
+  "total_pages": 39,
+  "total_results": 772
+}

@@ -1,0 +1,27 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/8YboYnoujBeWv4Galqnb7I0h9jf.jpg",
+      "genre_ids": [
+        35,
+        10749,
+        10751
+      ],
+      "id": 58128,
+      "original_language": "hi",
+      "original_title": "अंदाज़ अपना अपना",
+      "overview": "Two slackers competing for the affections of an heiress inadvertently become her protectors from an evil criminal.",
+      "popularity": 1.63,
+      "poster_path": "/l1tE1GspvcyeYSfKxmnh8DObnzG.jpg",
+      "release_date": "1994-04-11",
+      "title": "Andaz Apna Apna",
+      "video": false,
+      "vote_average": 6.709,
+      "vote_count": 227
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 1
+}
